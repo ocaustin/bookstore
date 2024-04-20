@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Form Styles */
+.form-container {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 auto 20px; /* Center the form horizontally and add margin at the bottom to create space */
+    max-width: 600px; /* Limit the maximum width of the form */
+}
+
+.form-container h2 {
+    margin-top: 0;
+}
+
+.form-container label {
+    font-weight: bold;
+    display: block;
+}
+
+.form-container input[type="text"],
+.form-container input[type="number"],
+.form-container textarea { /* Adjust styles for textarea */
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-container button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    display: block;
+    margin-top: 10px;
+}
+
+.form-container button:hover {
+    background-color: #45a049;
+}
+
+/* Catalog Styles */
+.catalog-container {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px auto 0; /* Add margin at the top to create space */
+    max-width: 800px; /* Adjust max-width as needed */
+}
+
+.catalog-container h2 {
+    margin-top: 0;
+}
+
+.catalog-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.catalog-container th, .catalog-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.catalog-container th {
+    background-color: #f2f2f2;
+}
+
+/* Edit and Delete Button Styles */
+.catalog-container button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.catalog-container button.edit {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.catalog-container button.delete {
+    background-color: #f44336;
+    color: white;
+}
+
+.catalog-container button.edit:hover, .catalog-container button.delete:hover {
+    background-color: #3e8e41;
+}
